@@ -1,0 +1,21 @@
+# Carpeta node_modules generada por npm
+node_modules/
+
+# Archivo .env que contiene variables de entorno sensibles
+.env
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos generados por tu IDE o editor de código
+.vscode/
+.idea/
+
+# Otros archivos generados automáticamente
+*.swp
+*.swo
+*.swn
+
+# Archivos de dependencias que pueden ser específicos de tu entorno de desarrollo
+package-lock.json

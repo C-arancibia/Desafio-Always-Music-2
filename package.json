@@ -1,0 +1,21 @@
+{
+    "name": "always-music-app",
+    "version": "1.0.0",
+    "description": "Sistema de gestión para la escuela de música Always Music",
+    "main": "index.js",
+    "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Camila Arancibia Almonacid",
+    "license": "MIT",
+    "dependencies": {
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1"
+    },
+    "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+    }
+}
